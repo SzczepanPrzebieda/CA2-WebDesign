@@ -1,0 +1,13 @@
+ul {
+    background-color: black;
+}
+
+li a {
+    color: white;
+    background-color: black;
+}
+
+li a:hover {
+    background-color: white;
+    color: black;
+}

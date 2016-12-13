@@ -1,0 +1,17 @@
+<div class="container">
+    <h2>Temperature Unit Convertor</h2>
+    <form class="form-horizontal" name="convert">
+      <div class="form-group">
+        <label class="control-label col-sm-2" for="Celcius">Celcius:</label>
+        <div class="col-sm-10">
+          <input [(ngModel)]="Celcius" name="Celcius" (keyup)=" CelciusToFarenheit()" step="any" class="form-control" placeholder="Enter a number">
+        </div>
+      </div>
+      <div class="form-group">
+        <label class="control-label col-sm-2" for="Farenheit">Farenheit:</label>
+        <div class="col-sm-10">
+          <input [(ngModel)]="Farenheit" name="Farenheit" (keyup)=" fahrenthetToCelcius()" step="any" class="form-control" placeholder="Enter a number">     
+        </div>
+      </div>
+    </form>
+  </div>
